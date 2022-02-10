@@ -15,4 +15,12 @@ public class Tank extends MilitaryEquipment {
     public void benz(){
         System.out.println(name+" Бензин закончился, тащи канистру а то не сдвинешься");
     }
+
+    @Override
+    public String toString() {
+        return "      /// Танк ///" +
+                "\n Название:" + name +
+                "\n Вес:" + weight +
+                "\n Цена:" + sell;
+    }
 }

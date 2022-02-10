@@ -9,4 +9,12 @@ public class Gun extends MilitaryEquipment {
     public void clin(){
         System.out.println(name+" заклинил");
     }
+
+    @Override
+    public String toString() {
+        return "    /// Пушка ///      " +
+                "\n Название:" + name +
+                "\n Вес:" + weight +
+                "\n Цена:" + sell;
+    }
 }

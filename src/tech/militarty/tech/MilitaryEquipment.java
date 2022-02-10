@@ -19,4 +19,13 @@ private int damage;
     public void shoot(){
         System.out.println(name+" Выстрелил");
     }
+
+    @Override
+    public String toString() {
+        return "     /// Военное снаряжение ///" +
+                "\n Название:" + name +
+                "\n Вес:" + weight +
+                "\n Цена:" + sell +
+                "\n Урон:" + damage;
+    }
 }

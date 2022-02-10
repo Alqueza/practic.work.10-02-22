@@ -19,4 +19,13 @@ public class Appliances extends Tech {
     public void breek(){
         System.out.println(name+" упс, кажется она сломалась");
     }
+
+    @Override
+    public String toString() {
+        return "      /// Бытовая техника ///" +
+                "\n Название:" + name +
+                "\n Вес:" + weight +
+                "\n Цена:" + sell +
+                "\n Гарантия:" + guarantee;
+    }
 }

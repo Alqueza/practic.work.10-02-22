@@ -42,4 +42,11 @@ public class Tech {
         System.out.println(name+" Выключен");
     }
 
+    @Override
+    public String toString() {
+        return "    /// Техника ///    " +
+                "\n Название:" + name +
+                "\n Вес:'" + weight +
+                "\n Цена" + sell ;
+    }
 }

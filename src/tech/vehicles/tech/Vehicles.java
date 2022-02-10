@@ -23,4 +23,13 @@ public void turnOn(){
     public void turnOff(){
         System.out.println(name+" Заглушен");
     }
+
+    @Override
+    public String toString() {
+        return "  /// Техника ///" +
+                "\n Название:" + name +
+                "\n Вес:" + weight +
+                "\n Цена:" + sell +
+                "\n Скорость:" + speed;
+    }
 }

@@ -9,4 +9,13 @@ public class Car extends Vehicles {
     public void speed(){
         System.out.println(name+" Набрал бешеную скорость и летит словно пуля!");
     }
+
+    @Override
+    public String toString() {
+        return "  //// Машина ////" +
+                "\n name:" + name +
+                "\n weight:" + weight+
+                "\n sell:" + sell +
+                "\n speed:" + speed;
+    }
 }

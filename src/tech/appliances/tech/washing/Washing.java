@@ -9,4 +9,13 @@ public class Washing extends Appliances {
 public void moika(){
     System.out.println(name+" Начинает стирку");
 }
+
+    @Override
+    public String toString() {
+        return "    /// Стиралка ///    " +
+                "\n Название:" + name +
+                "\n Вес:" + weight +
+                "\n Цена:" + sell +
+                "\n Гарантия:" + guarantee;
+    }
 }
